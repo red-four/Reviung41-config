@@ -51,10 +51,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
- &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(LC(N))  &kp LS(LC(ESC))                  &kp CARET           &kp AMPS     &kp N8   &kp LPAR   &kp RPAR        &kp DEL
- &trans        &kp AT     &kp POUND  &kp QUESTION       &kp EXCL         &kp PIPE                   &kp LEFT           &kp DOWN     &kp UP  &kp RIGHT  &kp GRAVE      &kp TILDE
- &trans       &kp ESC      &kp LGUI      &kp LALT       &kp CLCK          &kp DQT           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP  &kp PG_DN  &kp PSCRN  &mt RSHFT RET
-                                           &trans         &trans                   &kp RET                                &mo 3     &trans
+ &trans  &kp NUMBER_1  &kp LA(F4)     &kp LG(R)  &kp LS(LC(N))  &kp LS(LC(ESC))                  &kp CARET           &kp AMPS     &kp N8   &kp LPAR   &kp RPAR        &kp DEL
+ &trans        &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp PIPE                   &kp LEFT           &kp DOWN     &kp UP  &kp RIGHT  &kp GRAVE      &kp TILDE
+ &trans       &kp ESC    &kp LGUI      &kp LALT       &kp CLCK          &kp DQT           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP  &kp PG_DN  &kp PSCRN  &mt RSHFT RET
+                                         &trans         &trans                   &kp RET                                &mo 3     &trans
             >;
         };
 
