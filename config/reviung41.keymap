@@ -45,9 +45,9 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-          &kp ESC   &kp Q   &kp W   &kp F      &kp P   &kp G                 &kp J            &kp L      &kp U    &kp Y  &kp SEMI  &mt LCTRL BACKSPACE
-          &kp TAB   &kp A   &kp R   &kp S      &kp T   &kp D                 &kp H            &kp N      &kp E    &kp I     &kp O              &kp SQT
- &kp LEFT_CONTROL   &kp Z   &kp X   &kp C      &kp V   &kp B                 &kp K            &kp M  &kp COMMA  &kp DOT  &kp FSLH        &kp RIGHT_ALT
+          &kp ESC   &kp Q   &kp W   &kp F      &kp P   &kp G                 &kp J            &kp L      &kp U    &kp Y  &kp SEMI  &kp BACKSPACE
+          &kp TAB   &kp A   &kp R   &kp S      &kp T   &kp D                 &kp H            &kp N      &kp E    &kp I     &kp O        &kp SQT
+ &kp LEFT_CONTROL   &kp Z   &kp X   &kp C      &kp V   &kp B                 &kp K            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
                                     &mo 2  &kp SPACE          &kp LEFT_GUI          &kp RIGHT_SHIFT      &mo 1
             >;
         };
@@ -78,7 +78,7 @@
  &trans         &kp N1  &kp CAPS    &kp UP   &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS       &kp DEL
  &trans      &kp MINUS  &kp LEFT  &kp DOWN      &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS  &kp KP_EQUAL
  &trans  &kp LC(LS(Z))    &kp F2  &kp RALT  &kp AMPERSAND  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT       &kp F12
-                                    &trans          &mo 5               &kp DELETE                         &kp ENTER            &mo 3
+                                    &trans         &tog 2               &kp DELETE                         &kp ENTER            &mo 3
             >;
         };
 
