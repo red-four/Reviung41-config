@@ -55,10 +55,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
- &trans  &kp LG(E)  &kp LA(F4)     &kp LG(R)  &kp LS(LC(N))  &kp LS(LC(ESC))                  &kp CARET           &kp AMPS         &kp PG_UP           &kp LPAR     &kp RPAR        &kp DEL
- &trans     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp AMPS               &kp LS(HOME)       &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))  &kp LS(END)      &kp TILDE
- &trans    &kp ESC    &kp LGUI      &kp LALT       &kp CLCK          &kp DQT           &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PAGE_DOWN          &kp PG_DN    &kp PSCRN  &mt RSHFT RET
-                                       &mo 3         &trans                   &kp RET                                &mo 3            &trans
+ &trans  &kp LG(E)  &kp LA(F4)     &kp LG(R)  &kp LS(LC(N))  &kp LS(LC(ESC))                           &kp CARET      &kp LC(LS(I))         &kp PG_UP           &kp LPAR     &kp RPAR        &kp DEL
+ &trans     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp AMPS                       &kp BACKSLASH       &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))  &kp LS(END)      &kp TILDE
+ &trans    &kp ESC    &kp LGUI      &kp LALT       &kp CLCK          &kp DQT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PAGE_DOWN          &kp PG_DN    &kp PSCRN  &mt RSHFT RET
+                                      &trans         &trans                   &kp LEFT_CONTROL                        &kp RIGHT_ALT            &trans
             >;
         };
 
@@ -70,10 +70,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
- &trans     &kp N1  &kp CAPS    &kp UP   &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS       &kp DEL
- &trans  &kp MINUS  &kp LEFT  &kp DOWN      &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS  &kp KP_EQUAL
- &trans    &kp ESC    &kp F2  &kp RALT  &kp AMPERSAND  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT       &kp F12
-                                &trans          &mo 3               &kp DELETE                         &kp ENTER    &kp BACKSPACE
+ &trans         &kp N1  &kp CAPS    &kp UP   &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS       &kp DEL
+ &trans      &kp MINUS  &kp LEFT  &kp DOWN      &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS  &kp KP_EQUAL
+ &trans  &kp LC(LS(Z))    &kp F2  &kp RALT  &kp AMPERSAND  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT       &kp F12
+                                    &trans          &mo 3               &kp DELETE                         &kp ENTER    &kp BACKSPACE
             >;
         };
 
