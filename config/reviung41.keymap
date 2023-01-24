@@ -52,7 +52,7 @@
 
             bindings = <
  &trans  &kp LG(E)  &kp LA(F4)     &kp LG(R)  &kp LS(LC(N))  &kp LS(LC(ESC))                  &kp CARET           &kp AMPS     &kp N8   &kp LPAR   &kp RPAR        &kp DEL
- &trans     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp PIPE                   &kp LEFT           &kp DOWN     &kp UP  &kp RIGHT  &kp GRAVE      &kp TILDE
+ &trans     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp AMPS                   &kp LEFT           &kp DOWN     &kp UP  &kp RIGHT  &kp GRAVE      &kp TILDE
  &trans    &kp ESC    &kp LGUI      &kp LALT       &kp CLCK          &kp DQT           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PG_UP  &kp PG_DN  &kp PSCRN  &mt RSHFT RET
                                       &trans         &trans                   &kp RET                                &mo 3     &trans
             >;
@@ -66,7 +66,7 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
- &trans     &kp N1    &kp N2    &kp UP  &kp KP_MINUS    &kp DOLLAR                     &kp N6        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9      &kp N0  &kp DEL
+ &trans     &kp N1  &kp AMPS    &kp UP  &kp KP_MINUS    &kp DOLLAR                     &kp N6        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9      &kp N0  &kp DEL
  &trans  &kp MINUS  &kp LEFT  &kp DOWN     &kp RIGHT      &kp HASH              &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6    &kp PLUS   &kp F6
  &trans    &kp ESC    &kp F2  &kp RALT      &kp CLCK  &kp KP_EQUAL            &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT  &kp F12
                                 &trans         &mo 3                &kp BSPC                         &kp ENTER       &kp K_BACK
