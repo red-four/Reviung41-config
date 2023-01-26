@@ -61,7 +61,7 @@
 
             bindings = <
  &kp LC(LA(DEL))  &kp LG(E)  &kp LA(F4)     &kp LG(R)  &kp LS(LC(N))  &kp LS(LC(ESC))                           &kp CARET      &kp LC(LS(I))         &kp PG_UP           &kp LPAR     &kp RPAR        &kp DEL
-          &trans     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp AMPS                       &kp BACKSLASH       &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))  &kp LS(END)      &kp TILDE
+       &kp UNDER     &kp AT   &kp POUND  &kp QUESTION       &kp EXCL         &kp AMPS                       &kp BACKSLASH       &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))  &kp LS(END)      &kp TILDE
           &trans    &kp ESC    &kp LGUI      &kp LALT       &kp CLCK          &kp DQT                    &kp LEFT_BRACKET  &kp RIGHT_BRACKET     &kp PAGE_DOWN          &kp PG_DN    &kp PSCRN  &mt RSHFT RET
                                                &trans      &kp ENTER                   &kp LEFT_CONTROL                        &kp RIGHT_ALT            &trans
             >;
