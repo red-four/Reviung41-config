@@ -27,11 +27,6 @@
 
     combos {
         compatible = "zmk,combos";
-
-        new_combo {
-            bindings = <&kp ENTER>;
-            key-positions = <39 37>;
-        };
     };
 
     keymap {
