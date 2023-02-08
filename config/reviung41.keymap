@@ -58,7 +58,7 @@
 &kp LC(LA(DEL))  &kp LG(E)     &kp LA(F4)     &kp LG(R)   &kp LS(LC(N))  &kp LS(LC(ESC))                               &kp CARET          &kp LC(LS(I))         &kp PG_UP           &kp LPAR       &kp RPAR        &kp DEL
          &trans     &kp AT  &kp AMPERSAND  &kp QUESTION        &kp EXCL      &kp PERCENT                           &kp BACKSLASH           &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))    &kp LS(END)      &kp TILDE
          &trans    &kp ESC      &kp UNDER      &kp LALT  &kp LEFT_BRACE  &kp RIGHT_BRACE                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp PAGE_DOWN  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &mt RSHFT RET
-                                                 &trans       &kp ENTER                   &kp LEFT_CONTROL                                &kp RIGHT_ALT            &trans
+                                                  &mo 3       &kp ENTER                   &kp LEFT_CONTROL                                &kp RIGHT_ALT            &trans
             >;
         };
 
@@ -73,7 +73,7 @@
   &kp C_MUTE     &kp INSERT  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
 &kp C_VOL_UP        &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS      &kp BACKSPACE
 &kp C_VOL_DN  &kp LC(LS(Z))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT    &kp LOCKING_NUM
-                                          &trans        &tog 2               &kp DELETE                         &kp ENTER           &trans
+                                          &trans        &tog 2               &kp DELETE                         &kp ENTER            &mo 3
             >;
         };
 
