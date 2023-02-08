@@ -40,10 +40,10 @@
             //                         | ALT | LWR | SPC | RSE  | ALT |
 
             bindings = <
-      &kp ESC   &kp Q   &kp W   &kp F      &kp P   &kp G                     &kp J            &kp L      &kp U    &kp Y  &kp SEMI  &kp BACKSPACE
-      &kp TAB   &kp A   &kp R   &kp S      &kp T   &kp D                     &kp H            &kp N      &kp E    &kp I     &kp O        &kp SQT
- &kp LEFT_GUI   &kp Z   &kp X   &kp C      &kp V   &kp B                     &kp K            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
-                                &mo 2  &kp SPACE          &kp LEFT_CONTROL          &kp RIGHT_SHIFT      &mo 1
+     &kp ESC  &kp Q  &kp W  &kp F      &kp P  &kp G                    &kp J            &kp L      &kp U    &kp Y  &kp SEMI  &kp BACKSPACE
+     &kp TAB  &kp A  &kp R  &kp S      &kp T  &kp D                    &kp H            &kp N      &kp E    &kp I     &kp O        &kp SQT
+&kp LEFT_GUI  &kp Z  &kp X  &kp C      &kp V  &kp B                    &kp K            &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_ALT
+                            &mo 2  &kp SPACE         &kp LEFT_CONTROL         &kp RIGHT_SHIFT      &mo 1
             >;
         };
 
@@ -55,10 +55,10 @@
             //                       |     |     | RET | ADJ |     |
 
             bindings = <
- &kp LC(LA(DEL))  &kp LG(E)     &kp LA(F4)     &kp LG(R)   &kp LS(LC(N))  &kp LS(LC(ESC))                               &kp CARET          &kp LC(LS(I))         &kp PG_UP           &kp LPAR       &kp RPAR        &kp DEL
-          &trans     &kp AT  &kp AMPERSAND  &kp QUESTION        &kp EXCL      &kp PERCENT                           &kp BACKSLASH           &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))    &kp LS(END)      &kp TILDE
-          &trans    &kp ESC      &kp UNDER      &kp LALT  &kp LEFT_BRACE  &kp RIGHT_BRACE                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp PAGE_DOWN  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &mt RSHFT RET
-                                                  &trans       &kp ENTER                   &kp LEFT_CONTROL                                &kp RIGHT_ALT            &trans
+&kp LC(LA(DEL))  &kp LG(E)     &kp LA(F4)     &kp LG(R)   &kp LS(LC(N))  &kp LS(LC(ESC))                               &kp CARET          &kp LC(LS(I))         &kp PG_UP           &kp LPAR       &kp RPAR        &kp DEL
+         &trans     &kp AT  &kp AMPERSAND  &kp QUESTION        &kp EXCL      &kp PERCENT                           &kp BACKSLASH           &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))    &kp LS(END)      &kp TILDE
+         &trans    &kp ESC      &kp UNDER      &kp LALT  &kp LEFT_BRACE  &kp RIGHT_BRACE                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp PAGE_DOWN  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &mt RSHFT RET
+                                                 &trans       &kp ENTER                   &kp LEFT_CONTROL                                &kp RIGHT_ALT            &trans
             >;
         };
 
@@ -70,10 +70,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-   &kp C_MUTE     &kp INSERT  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
- &kp C_VOL_UP        &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS      &kp BACKSPACE
- &kp C_VOL_DN  &kp LC(LS(Z))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT    &kp LOCKING_NUM
-                                           &trans        &tog 2               &kp DELETE                         &kp ENTER            &mo 3
+  &kp C_MUTE     &kp INSERT  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
+&kp C_VOL_UP        &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS      &kp BACKSPACE
+&kp C_VOL_DN  &kp LC(LS(Z))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT    &kp LOCKING_NUM
+                                          &trans        &tog 2               &kp DELETE                         &kp ENTER           &trans
             >;
         };
 
@@ -85,28 +85,28 @@
             //                                              |     |     |     |     |     |
 
             bindings = <
- &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
- &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none            &bt BT_NXT    &bt BT_PRV         &none         &none         &none       &none
-           &none            &none            &none            &none   &none            &none                &reset         &none         &none         &none         &none       &none
-                                                             &trans  &trans                   &tog 3                      &trans        &trans
+&rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
+&rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none            &bt BT_NXT    &bt BT_PRV         &none         &none         &none       &none
+          &none            &none            &none            &none   &none            &none                &reset         &none         &none         &none         &none       &none
+                                                            &trans  &trans                   &tog 3                      &trans        &trans
             >;
         };
 
         Layer__4 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans     &mo          &trans          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &mo          &trans          &trans  &trans
             >;
         };
 
         Layer__5 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                         &trans  &trans          &trans          &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans          &trans          &trans  &trans
             >;
         };
     };
