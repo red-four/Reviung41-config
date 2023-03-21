@@ -70,7 +70,7 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-  &kp C_MUTE              &kp F5  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY        &kp KP_N7        &kp KP_N8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
+  &kp C_MUTE              &kp F5  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
 &kp C_VOL_UP             &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6      &kp PLUS      &kp BACKSPACE
 &kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT              &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3    &kp KP_DOT    &kp LOCKING_NUM
                                                &trans         &mo 4               &kp DELETE                         &kp ENTER            &mo 3
