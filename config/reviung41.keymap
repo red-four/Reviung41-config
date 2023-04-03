@@ -46,7 +46,7 @@
 &kp LC(LA(DEL))  &kp LG(E)     &kp LA(F4)     &kp LG(R)     &kp LS(LC(N))    &kp LS(LC(ESC))                               &kp CARET          &kp LC(LS(I))         &kp PG_UP           &kp LPAR       &kp RPAR    &kp DEL
          &trans     &kp AT  &kp AMPERSAND  &kp QUESTION          &kp EXCL        &kp PERCENT                           &kp BACKSLASH           &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))    &kp LS(END)  &kp TILDE
          &trans    &kp ESC      &kp UNDER      &kp LALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp PAGE_DOWN  &kp RIGHT_CONTROL  &kp RIGHT_ALT     &trans
-                                                  &mo 3         &kp ENTER                     &kp LEFT_CONTROL                                       &trans            &trans
+                                             &kp RSHIFT         &kp ENTER                     &kp LEFT_CONTROL                                       &trans            &trans
             >;
         };
 
