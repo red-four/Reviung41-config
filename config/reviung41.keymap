@@ -58,10 +58,10 @@
             //                       |     | ADJ | BKSP |    |     |
 
             bindings = <
-  &kp C_MUTE              &kp F5  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
-&kp C_VOL_UP             &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS      &kp BACKSPACE
-&kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PERIOD      &kp RIGHT_GUI
-                                               &trans         &mo 4               &kp DELETE                      &kp ENTER         &mo 3
+  &kp C_MUTE              &kp F5  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY  &kp NUMBER_7    &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
+&kp C_VOL_UP             &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp NUMBER_4    &kp NUMBER_5  &kp NUMBER_6      &kp PLUS      &kp BACKSPACE
+&kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                 &kp NUMBER_0  &kp NUMBER_1    &kp NUMBER_2  &kp NUMBER_3    &kp PERIOD      &kp RIGHT_GUI
+                                               &trans         &mo 4               &kp DELETE                      &kp ENTER  &kp LEFT_SHIFT
             >;
         };
 
