@@ -11,18 +11,6 @@
 
 / {
     macros {
-        Taskmanager: Taskmanager {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LC(ESCAPE))>;
-        };
-        newfolder: newfolder {
-            compatible = "zmk,behavior-macro";
-            label = "new_macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(LC(N))>;
-        };
     };
 
     combos {
@@ -47,7 +35,7 @@
             >;
         };
 
-        lower_layer {
+        Punctuation {
             // ----------------------------------------------------------------------------------
             // |    |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  |    DEL    |
             // |    |  _  |  +  |  {  |  }  | "|" |   | LFT | DWN |  UP | RGT |  `  |     ~     |
@@ -62,7 +50,7 @@
             >;
         };
 
-        raise_layer {
+        Num_Pad {
             // -----------------------------------------------------------------------------------------
             // |    |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | DEL |
             // |    |  -  |  =  |  [  |  ]  |  \  |   | F1  | F2  | F3  | F4  | F5  | F6  |
@@ -72,7 +60,7 @@
             bindings = <
   &kp C_MUTE              &kp F5  &kp CAPS     &kp UP  &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
 &kp C_VOL_UP             &kp TAB  &kp LEFT   &kp DOWN     &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS      &kp BACKSPACE
-&kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PERIOD    &kp LOCKING_NUM
+&kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)  &kp KP_EQUAL  &kp PERCENT                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PERIOD      &kp RIGHT_GUI
                                                &trans         &mo 4               &kp DELETE                      &kp ENTER         &mo 3
             >;
         };
