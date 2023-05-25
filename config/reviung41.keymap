@@ -46,7 +46,7 @@
 &kp LC(LA(DEL))  &kp LG(E)     &kp LA(F4)     &kp LG(R)     &kp LS(LC(N))    &kp LS(LC(ESC))                               &kp CARET          &kp LC(LS(I))         &kp PG_UP          &kp LS(E)  &kp LS(LC(I))    &kp DEL
          &trans     &kp AT  &kp AMPERSAND  &kp QUESTION          &kp EXCL        &kp PERCENT                           &kp BACKSLASH           &kp LS(HOME)  &kp LS(LC(LEFT))  &kp LS(LC(RIGHT))    &kp LS(END)  &kp TILDE
          &trans  &kp TILDE      &kp UNDER      &kp LALT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET                    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS     &kp PAGE_DOWN  &kp RIGHT_CONTROL  &kp RIGHT_ALT     &trans
-                                                 &trans         &kp ENTER                     &kp LEFT_CONTROL                                        &mo 3            &trans
+                                                  &mo 3         &kp ENTER                     &kp LEFT_CONTROL                                        &kp 0            &trans
             >;
         };
 
@@ -61,7 +61,7 @@
   &kp C_MUTE              &kp F5  &kp CAPS     &kp UP      &kp KP_MINUS   &kp DOLLAR              &kp KP_MULTIPLY  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp KP_MINUS  &kp LC(BACKSPACE)
 &kp C_VOL_UP             &kp TAB  &kp LEFT   &kp DOWN         &kp RIGHT     &kp HASH                &kp KP_DIVIDE  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6      &kp PLUS      &kp BACKSPACE
 &kp C_VOL_DN  &kp LC(LS(DOLLAR))    &kp F2  &kp LC(C)      &kp KP_EQUAL  &kp PERCENT                 &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3    &kp PERIOD      &kp RIGHT_GUI
-                                               &trans  &kp LEFT_CONTROL               &kp DELETE                      &kp ENTER        &trans
+                                               &trans  &kp LEFT_CONTROL               &kp DELETE                      &kp ENTER         &mo 3
             >;
         };
 
@@ -76,7 +76,7 @@
 &rgb_ug RGB_BRI  &rgb_ug RGB_SAI  &rgb_ug RGB_HUI  &rgb_ug RGB_EFF   &none  &rgb_ug RGB_TOG          &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &bt BT_CLR
 &rgb_ug RGB_BRD  &rgb_ug RGB_SAD  &rgb_ug RGB_HUD  &rgb_ug RGB_EFR   &none            &none            &bt BT_NXT    &bt BT_PRV         &none         &none         &none       &none
           &none            &none            &none            &none   &none            &none                &reset         &none         &none         &none         &none       &none
-                                                            &trans  &trans                   &tog 3                      &trans        &trans
+                                                            &trans  &trans                   &trans                      &trans        &trans
             >;
         };
 
